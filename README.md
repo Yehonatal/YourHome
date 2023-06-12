@@ -2,12 +2,16 @@
 ### HARAMAYA UNIVERSITY
 
 Prepared for: Web Design and Programming I (SEng3021)
+<br/>
 Project Type: Online property marketplace
+<br/>
 Project Title: YourHome
+<br/>
 Prepared by: 
     Yonatan Afewerk Teshome (917/13)
     Abel Melaku Buzye (859/13)
 
+<br/>
 ## Project Overview: YourHome - An Online Property Marketplace
 The traditional real estate market often restricts access to property listings, making it difficult for potential buyers and renters to
 find suitable options. We are planning this website solves this problem by providing an online platform that offers an extensive 
