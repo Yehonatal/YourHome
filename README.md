@@ -12,6 +12,7 @@ Prepared by:
     Abel Melaku Buzye (859/13)
 
 <br/>
+
 ## Project Overview: YourHome - An Online Property Marketplace
 The traditional real estate market often restricts access to property listings, making it difficult for potential buyers and renters to
 find suitable options. We are planning this website solves this problem by providing an online platform that offers an extensive 
