@@ -2,6 +2,8 @@
 
 ## HARAMAYA UNIVERSITY
 
+![Design preview for the YourHome site](preview.png)
+
 **Prepared for:** Web Design and Programming I (SEng3021)  
 **Project Type:** Online property marketplace  
 **Project Title:** YourHome  
