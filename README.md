@@ -2,6 +2,8 @@
 
 ## HARAMAYA UNIVERSITY
 
+[Live Demo](https://yourhome-schoolproject.netlify.app/)
+
 ![Design preview for the YourHome site](preview.png)
 
 **Prepared for:** Web Design and Programming I (SEng3021)  
