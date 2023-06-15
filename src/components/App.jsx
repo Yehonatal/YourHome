@@ -5,6 +5,7 @@ import Header from "../components/header";
 import Search from "../components/search";
 import Cards from "../components/Cards";
 import Features from "../components/Features";
+import Latest from "../components/Latest";
 
 function App() {
     return (
@@ -29,6 +30,12 @@ function App() {
             </div>
 
             <Cards />
+
+            <div className="subtitle-focus">
+                <h5 className="blue">OUR PROPERTY</h5>
+                <h2>LATEST PROPERTIES</h2>
+            </div>
+            <Latest />
 
             <div className="subtitle-focus">
                 <h5 className="blue">PROPERTIES</h5>

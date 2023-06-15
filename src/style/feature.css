@@ -62,7 +62,10 @@
 }
 
 hr {
-    opacity: 0.5;
+    margin: 1em 0;
+    padding: 0.25px;
+    background-color: gray;
+    opacity: 0.25;
 }
 
 .owner {
@@ -84,7 +87,7 @@ hr {
 }
 
 .owner p {
-    margin-right: auto;
+    margin-right: auto !important;
 }
 
 .feat-btn {
@@ -92,4 +95,13 @@ hr {
     color: #646cff;
     border: 1px solid #646cff;
     margin-bottom: 10em;
+}
+
+.owner svg:first-of-type {
+    scale: 1.5;
+}
+
+p {
+    font-weight: 500;
+    opacity: 0.85;
 }

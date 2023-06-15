@@ -1,0 +1,78 @@
+.latests {
+    margin: 5em auto;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.latest-card {
+    border: 1px solid rgba(225, 225, 225, 0.237);
+    border-radius: 35px 35px 15px 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.124);
+    flex: 1;
+}
+
+.lat-content {
+    text-align: left;
+    padding: 0 2em 2em 2em;
+    line-height: 1;
+}
+
+.lat-img {
+    flex: 1;
+}
+
+.lat-img img {
+    width: 100%;
+    border-radius: 35px 35px 0 0;
+}
+
+.lat-details {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.lat-det,
+.location {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.lat-det svg {
+    background-color: #646cff29;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.latests svg {
+    fill: #646cff;
+}
+
+.lat-btn {
+    background-color: transparent;
+    color: #646cff;
+    border: 1px solid #646cff;
+    margin-bottom: 10em;
+}
+
+.latest-card .location {
+    font-size: 0.75em;
+    opacity: 0.85;
+    margin-bottom: 1em;
+}
+
+.latest-card .owner {
+    margin-top: 1em;
+}
+.latest-card .lat-details h3,
+.latest-card .lat-details p {
+    margin: 0.5em 0;
+}
+.flx.lat {
+    justify-content: space-between;
+}
