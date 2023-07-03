@@ -122,7 +122,6 @@ const Latest = () => {
                             </div>
                         </div>
                         <hr />
-
                         <div className="owner">
                             <div className="owner-img">
                                 <img src={owner} alt="" />
