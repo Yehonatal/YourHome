@@ -1,6 +1,7 @@
 import { FiChevronDown } from "react-icons/fi";
 import { CiLocationOn, CiShoppingTag } from "react-icons/ci";
 import { BiHomeHeart } from "react-icons/bi";
+import "../style/search.css";
 
 const search = () => {
     return (
@@ -12,12 +13,12 @@ const search = () => {
             </div>
             <div className="flx">
                 <BiHomeHeart />
-                <p>Property Type</p>
+                <p>Property </p>
                 <FiChevronDown />
             </div>
             <div className="flx">
                 <CiShoppingTag />
-                <p>Max Price</p>
+                <p>Max </p>
                 <FiChevronDown />
             </div>
             <div>

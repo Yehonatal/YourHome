@@ -1,14 +1,18 @@
+import { AiOutlineShoppingCart } from "react-icons/ai";
+import "../style/header.css";
 const header = () => {
     return (
-        <div className="header">
+        <div className="header" id="Home">
             <h2>
-                Your <span className="blue">Home</span>
+                <a href="#Home">
+                    Your <span className="blue">Home</span>
+                </a>
             </h2>
 
-            <div>
+            <div className="hide-on-mobile">
                 <ul>
                     <li>
-                        <a href="#">Home</a>
+                        <a href="#Home">Home</a>
                     </li>
                     <li>
                         <a href="#">About</a>
@@ -16,15 +20,15 @@ const header = () => {
                     <li>
                         <a href="#service">Service</a>
                     </li>
-                    <li>
-                        <a href="#">Blog</a>
-                    </li>
+
                     <li>
                         <a href="#">Contact</a>
                     </li>
                 </ul>
             </div>
-            <button>Sign In</button>
+            <div className="cart">
+                <AiOutlineShoppingCart />
+            </div>
         </div>
     );
 };

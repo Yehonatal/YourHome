@@ -125,16 +125,6 @@ ul li {
     margin-left: -20px;
 }
 
-.src {
-    margin-inline: auto;
-    max-width: 900px;
-
-    border: 1px solid #0077ff52;
-    padding: 0.5em 1em;
-    border-radius: 10px;
-    justify-content: space-between;
-}
-
 .subtitle-focus {
     margin-top: 7.5em;
     line-height: 1.25;
@@ -203,4 +193,19 @@ h2 {
 
 a {
     color: #1a1a1a;
+}
+/* Utilities */
+
+@media (max-width: 768px) {
+    .hero-section {
+        margin-top: 2.5em;
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+        margin-bottom: 1em;
+    }
+    .hero-info {
+        flex: 1;
+        text-align: center;
+    }
 }

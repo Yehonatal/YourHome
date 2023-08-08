@@ -1,0 +1,37 @@
+.flx {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.flx p {
+    margin-left: -20px;
+}
+
+.src {
+    margin-inline: auto;
+    max-width: 700px;
+
+    border: 1px solid #0077ff52;
+    padding: 0.5em 1em;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+/* Utilities */
+
+@media (max-width: 568px) {
+    .src {
+        max-width: 300px;
+    }
+    .hide-on-mobile {
+        display: none;
+    }
+    .flx p {
+        display: none;
+        margin-left: -5px;
+    }
+
+    .flx {
+        gap: 10px;
+    }
+}

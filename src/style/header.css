@@ -1,0 +1,27 @@
+.cart {
+    cursor: pointer;
+    scale: 1.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2 ease-in-out;
+}
+
+.cart svg {
+    background-color: #bfc2ff;
+    padding: 1px 3px 1px 1px;
+    border-radius: 2px;
+}
+.cart svg:hover {
+    background-color: #646cff;
+    padding: 1px 3px 1px 1px;
+    border-radius: 2px;
+}
+
+/* Utilities */
+
+@media (max-width: 768px) {
+    .hide-on-mobile {
+        display: none;
+    }
+}
