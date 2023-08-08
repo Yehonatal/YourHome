@@ -21,7 +21,7 @@ const search = () => {
                 <p>Max </p>
                 <FiChevronDown />
             </div>
-            <div>
+            <div className="btn-src">
                 <button>Search</button>
             </div>
         </div>

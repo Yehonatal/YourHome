@@ -22,6 +22,7 @@
 @media (max-width: 568px) {
     .src {
         max-width: 300px;
+        flex-wrap: wrap;
     }
     .hide-on-mobile {
         display: none;
@@ -33,5 +34,13 @@
 
     .flx {
         gap: 10px;
+    }
+
+    .btn-src {
+        background-color: #1a1a1a;
+        border-radius: 8px;
+
+        width: fit-content;
+        flex: 1;
     }
 }
