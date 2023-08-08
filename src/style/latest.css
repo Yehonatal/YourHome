@@ -15,10 +15,14 @@
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.124);
     flex: 1;
 }
+.lat {
+    padding: 0;
+    margin: 0;
+}
 
 .lat-content {
     text-align: left;
-    padding: 0 2em 2em 2em;
+    padding: 0 1em 1em 1em;
     line-height: 1;
 }
 
@@ -35,6 +39,8 @@
     display: flex;
     flex-direction: row;
     gap: 10px;
+    scale: 0.85;
+    margin-left: -30px;
 }
 
 @media (min-width: 345px) {
@@ -71,7 +77,10 @@
 .latest-card .location {
     font-size: 0.75em;
     opacity: 0.85;
-    margin-bottom: 1em;
+}
+
+.latest-card hr {
+    opacity: 0.25;
 }
 
 .latest-card .owner {
