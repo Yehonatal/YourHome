@@ -1,7 +1,7 @@
 .flx {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 30px;
 }
 
 .flx p {
@@ -19,7 +19,7 @@
 }
 /* Utilities */
 
-@media (max-width: 568px) {
+@media (max-width: 680px) {
     .src {
         max-width: 300px;
         flex-wrap: wrap;

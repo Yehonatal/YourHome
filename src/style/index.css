@@ -98,13 +98,6 @@ h1 {
 .hero-img {
     flex: 2;
 }
-.header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 50px;
-    padding: 1em;
-}
 
 ul {
     display: flex;

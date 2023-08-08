@@ -1,3 +1,10 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    padding: 1em;
+}
 .cart {
     cursor: pointer;
     scale: 1.5;
@@ -23,5 +30,9 @@
 @media (max-width: 768px) {
     .hide-on-mobile {
         display: none;
+    }
+
+    *.header {
+        padding: 0;
     }
 }
