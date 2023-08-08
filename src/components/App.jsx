@@ -3,7 +3,7 @@ import house from "../assets/img/house2.jpg";
 import "../style/App.css";
 import Header from "../components/header";
 import Search from "../components/search";
-// import Cards from "../components/Cards";
+import Cards from "../components/Cards";
 // import Features from "../components/Features";
 // import Latest from "../components/Latest";
 
@@ -29,7 +29,7 @@ function App() {
                 <h2>OUR MAIN FOCUS</h2>
             </div>
 
-            {/* <Cards /> */}
+            <Cards />
 
             <div className="subtitle-focus">
                 <h5 className="blue">OUR PROPERTY</h5>

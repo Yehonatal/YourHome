@@ -114,10 +114,6 @@ ul li {
     gap: 30px;
 }
 
-.flx p {
-    margin-left: -20px;
-}
-
 .subtitle-focus {
     margin-top: 7.5em;
     line-height: 1.25;
@@ -126,54 +122,6 @@ ul li {
 h2 {
     margin: 0;
     padding: 0;
-}
-
-.cards {
-    margin-top: 2.5em;
-    margin-bottom: 12.5em;
-}
-
-.card {
-    border-radius: 20px;
-    padding: 2em 0;
-    border: 1px solid #96969652;
-    scale: 0.85;
-}
-
-.card:nth-child(2) {
-    scale: 1.05;
-    border: 1px solid #dcdcdc52;
-    box-shadow: 5px 5px 35px rgba(0, 0, 0, 0.095);
-}
-
-.card p {
-    margin-inline: auto;
-    max-width: 70%;
-}
-
-.card-icon {
-    border: 1px solid #1a1a1a;
-    border-radius: 10px;
-    width: fit-content;
-    width: 75px;
-    height: 75px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    margin: 50px auto;
-}
-
-.card-icon svg {
-    scale: 2.25;
-}
-
-.card button {
-    background-color: transparent;
-    color: #1a1a1a;
-    font-weight: bold;
-    margin-top: 2em;
-    border: 1px solid #1a1a1a;
 }
 
 .flx-btn {

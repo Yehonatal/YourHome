@@ -3,6 +3,7 @@ import { FiChevronDown } from "react-icons/fi";
 
 import { GiMoneyStack } from "react-icons/gi";
 import { MdOutlineHomeWork } from "react-icons/md";
+import "../style/cards.css";
 
 const Cards = () => {
     return (
