@@ -6,6 +6,7 @@ import Search from "../components/search";
 import Cards from "../components/Cards";
 import Features from "../components/Features";
 import Latest from "../components/Latest";
+import Footer from "../components/Footer";
 
 function App() {
     return (
@@ -42,6 +43,7 @@ function App() {
                 <h2>FEATURED PROPERTIES</h2>
             </div>
             <Features />
+            <Footer />
         </>
     );
 }

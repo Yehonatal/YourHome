@@ -43,4 +43,8 @@
         width: fit-content;
         flex: 1;
     }
+
+    .src .flx {
+        gap: 15px;
+    }
 }

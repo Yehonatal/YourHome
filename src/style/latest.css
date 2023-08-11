@@ -112,3 +112,8 @@
     height: 50px;
     border-radius: 50%;
 }
+@media (max-width: 768px) {
+    .latest-card {
+        scale: 0.95;
+    }
+}

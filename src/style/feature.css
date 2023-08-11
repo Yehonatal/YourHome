@@ -1,5 +1,5 @@
 .features {
-    margin: 5em auto;
+    margin: 3em auto;
     display: flex;
     align-items: center;
     gap: 35px;
@@ -60,6 +60,10 @@
 @media (max-width: 768px) {
     .features {
         flex-direction: column;
+        margin: 0;
+    }
+    .feature-card {
+        scale: 0.95;
     }
     .feat-img img {
         width: 100%;
@@ -109,8 +113,3 @@ p {
 }
 
 /* Utilities */
-
-@media (max-width: 768px) {
-    .features {
-    }
-}

@@ -103,7 +103,7 @@ h1 {
     flex: 2;
 }
 
-ul {
+.header ul {
     display: flex;
     align-items: center;
     gap: 40px;
