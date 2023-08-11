@@ -49,6 +49,9 @@
 /* Utilities */
 
 @media (max-width: 768px) {
+    .cards .flx {
+        gap: 0;
+    }
     .cards {
         display: flex;
         flex-direction: column;
@@ -60,5 +63,7 @@
     .card:nth-child(2),
     .card {
         scale: 1 !important;
+        border: none;
+        box-shadow: none;
     }
 }

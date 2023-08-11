@@ -42,8 +42,8 @@ const Features = () => {
                         <div className="owner">
                             <div className="owner-img">
                                 <img src={owner} alt="" />
+                                <p>Owner</p>
                             </div>
-                            <p>Abel</p>
                             <AiFillHeart />
                             <BsShare />
                         </div>
@@ -79,8 +79,8 @@ const Features = () => {
                         <div className="owner">
                             <div className="owner-img">
                                 <img src={owner} alt="" />
+                                <p>Owner</p>
                             </div>
-                            <p>Abel</p>
                             <AiFillHeart />
                             <BsShare />
                         </div>

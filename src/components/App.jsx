@@ -4,7 +4,7 @@ import "../style/App.css";
 import Header from "../components/header";
 import Search from "../components/search";
 import Cards from "../components/Cards";
-// import Features from "../components/Features";
+import Features from "../components/Features";
 import Latest from "../components/Latest";
 
 function App() {
@@ -41,7 +41,7 @@ function App() {
                 <h5 className="blue">PROPERTIES</h5>
                 <h2>FEATURED PROPERTIES</h2>
             </div>
-            {/* <Features /> */}
+            <Features />
         </>
     );
 }
