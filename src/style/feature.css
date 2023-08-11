@@ -31,17 +31,6 @@
     border-radius: 0 15px 15px 0;
 }
 
-@media (max-width: 768px) {
-    .features {
-        flex-direction: column;
-    }
-    .feat-img img {
-        width: 100%;
-        border-radius: 0 15px 15px 0;
-        object-fit: cover;
-    }
-}
-
 .feat-details {
     display: flex;
     flex-direction: row;
@@ -66,6 +55,21 @@
 
 .features svg {
     fill: #646cff;
+}
+
+@media (max-width: 768px) {
+    .features {
+        flex-direction: column;
+    }
+    .feat-img img {
+        width: 100%;
+        border-radius: 0 15px 15px 0;
+        object-fit: cover;
+    }
+    .location {
+        scale: 0.95;
+        margin-left: -10px;
+    }
 }
 
 .owner svg {
