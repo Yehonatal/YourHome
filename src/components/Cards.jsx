@@ -1,5 +1,4 @@
 import { HiOutlineHome } from "react-icons/hi";
-import { FiChevronDown } from "react-icons/fi";
 
 import { GiMoneyStack } from "react-icons/gi";
 import { MdOutlineHomeWork } from "react-icons/md";
@@ -17,9 +16,6 @@ const Cards = () => {
                     It is a long established fact that a reader will be
                     distracted by a readable content of a page{" "}
                 </p>
-                <button className="flx-btn">
-                    <FiChevronDown />
-                </button>
             </div>
             <div className="card">
                 <div className="card-icon">
@@ -30,9 +26,6 @@ const Cards = () => {
                     It is a long established fact that a reader will be
                     distracted by a readable content of a page{" "}
                 </p>
-                <button className="flx-btn">
-                    More <FiChevronDown />
-                </button>
             </div>
             <div className="card">
                 <div className="card-icon">
@@ -43,9 +36,6 @@ const Cards = () => {
                     It is a long established fact that a reader will be
                     distracted by a readable content of a page{" "}
                 </p>
-                <button className="flx-btn">
-                    <FiChevronDown />
-                </button>
             </div>
         </div>
     );

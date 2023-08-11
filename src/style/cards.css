@@ -58,6 +58,7 @@
     }
 
     .card {
+        padding: 0 !important;
         max-width: 450px;
     }
     .card:nth-child(2),

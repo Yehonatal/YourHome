@@ -22,7 +22,7 @@ const header = () => {
                     </li>
 
                     <li>
-                        <a href="#">Contact</a>
+                        <a href="#Footer">Contact</a>
                     </li>
                 </ul>
             </div>

@@ -1,7 +1,7 @@
 import "../style/footer.css";
 const Footer = () => {
     return (
-        <footer className="footer flax">
+        <footer className="footer flax" id="Footer">
             <div>
                 <h2 className="foot-title">
                     <a href="#Home">
@@ -17,9 +17,7 @@ const Footer = () => {
             <div>
                 <div>
                     <h2>
-                        <a href="#Home">
-                            <strong>Quick Links</strong>
-                        </a>
+                        <strong>Quick Links</strong>
                     </h2>
                 </div>
                 <div className="footer-nav">
@@ -43,9 +41,7 @@ const Footer = () => {
             <div>
                 <div>
                     <h2>
-                        <a href="#Home">
-                            <strong>Services </strong>
-                        </a>
+                        <strong>Services </strong>
                     </h2>
                 </div>
                 <div className="footer-nav">
@@ -65,9 +61,7 @@ const Footer = () => {
             <div>
                 <div>
                     <h2>
-                        <a href="#Home">
-                            <strong>Contact</strong>
-                        </a>
+                        <strong>Contact</strong>
                     </h2>
                 </div>
                 <div className="footer-nav">
