@@ -1,7 +1,7 @@
 .flx {
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 30px !important;
 }
 
 .src p {
@@ -33,7 +33,7 @@
     }
 
     .flx {
-        gap: 10px;
+        gap: 15px !important;
     }
 
     .btn-src {
