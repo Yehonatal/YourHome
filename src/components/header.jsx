@@ -12,10 +12,7 @@ const header = () => {
             <div className="hide-on-mobile">
                 <ul>
                     <li>
-                        <a href="#Home">Home</a>
-                    </li>
-                    <li>
-                        <a href="#">About</a>
+                        <a href="#">Home</a>
                     </li>
                     <li>
                         <a href="#service">Service</a>
