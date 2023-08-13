@@ -1,7 +1,5 @@
 # Your Home
 
-## HARAMAYA UNIVERSITY
-
 [Live Demo](https://yourhome-schoolproject.netlify.app/)
 
 ![Design preview for the YourHome site](preview.png)
@@ -30,8 +28,9 @@ _(No information for now)_
 **Data Management:**  
 _(No information for now)_
 
-**Mobile Responsiveness:**  
- - completely responsive in every device
+**Mobile Responsiveness:**
+
+-   completely responsive in every device
 
 ## Conclusion
 
