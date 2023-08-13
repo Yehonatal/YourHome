@@ -31,7 +31,7 @@ _(No information for now)_
 _(No information for now)_
 
 **Mobile Responsiveness:**  
-_(No information for now)_
+ - completely responsive in every device
 
 ## Conclusion
 
